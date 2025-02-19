@@ -6,7 +6,7 @@ public class Main {
     CapitalizeTextCommand command1 = new CapitalizeTextCommand();
     CapitalizeSelectionTextCommand command2 = new CapitalizeSelectionTextCommand("selection");
     WrapTextCommand command3 = new WrapTextCommand("<p>", "</p>");
-    ReplaceTextCommand command4 = new ReplaceTextCommand(" is "," isn't ");
+    ReplaceTextCommand command4 = new ReplaceTextCommand(" is ", " isn't ");
 
 
     Script script = new Script(List.of(command1, command2, command3, command4));

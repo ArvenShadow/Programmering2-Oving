@@ -17,8 +17,8 @@ public class CapitalizeWordsTextCommand extends CapitalizeTextCommand {
       if (!word.isEmpty()) {
 
         capitalizedText.append(word.substring(0, 1).toUpperCase())
-          .append(word.substring(1))
-          .append(" ");
+            .append(word.substring(1))
+            .append(" ");
       }
     }
 
