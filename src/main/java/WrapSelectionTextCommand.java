@@ -1,4 +1,4 @@
-public class WrapSelectionTextCommand extends WrapTextCommand{
+public class WrapSelectionTextCommand extends WrapTextCommand {
   protected String selection;
 
   public WrapSelectionTextCommand(String opening, String end, String selection) {

@@ -1,4 +1,4 @@
-public class WrapTextCommand implements TextCommand{
+public class WrapTextCommand implements TextCommand {
   protected String opening;
   protected String end;
 

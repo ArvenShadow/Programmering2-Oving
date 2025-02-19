@@ -15,6 +15,7 @@ public class ReplaceTextCommand implements TextCommand {
   public String getTarget() {
     return target;
   }
+
   public String getReplacement() {
     return replacement;
   }
